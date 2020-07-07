@@ -9,7 +9,7 @@ in C, C++, CUDA, and Python codes.
 The design goal of timemory is to create an easy-to-use framework for generating
 performance measurements and analysis methods which are extremely flexible
 with respect to both how the data is stored/accumulated and which methods the measurement
-or analysis supports. In order to keep the overhead as low as reasonable achievable,
+or analysis supports. In order to keep the overhead as low as reasonably achievable,
 a significant amount of logic is evaluated at compile-time. As a result, applications
 which directly utilize the C++ template interface tend to see increases in compilation
 time, binary size (especially when debug info is included), and compiler memory usage.
